@@ -1,12 +1,18 @@
 import React from 'react';
-import { Text } from 'react-native';
 
-import { Container } from './styles';
+import { Container, RobotoBold, RobotoRegular, UbuntuBold, UbuntuRegular, RobotoLight, UbuntuLight } from './styles';
 
 const Main: React.FC = () => {
   return (
     <Container>
-      <Text>Main</Text>
+      <RobotoBold>Lorem Ipsum is simply dummy text of the printing and typesetting industry</RobotoBold>
+      <UbuntuBold>Lorem Ipsum is simply dummy text of the printing and typesetting industry</UbuntuBold>
+
+      <RobotoRegular>Lorem Ipsum is simply dummy text of the printing and typesetting industry</RobotoRegular>
+      <UbuntuRegular>Lorem Ipsum is simply dummy text of the printing and typesetting industry</UbuntuRegular>
+
+      <RobotoLight>Lorem Ipsum is simply dummy text of the printing and typesetting industry</RobotoLight>
+      <UbuntuLight>Lorem Ipsum is simply dummy text of the printing and typesetting industry</UbuntuLight>
     </Container>
   );
 };
